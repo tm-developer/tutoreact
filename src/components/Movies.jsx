@@ -6,7 +6,7 @@ const Movies = () => {
 
     const [data, setData] = useState([])
 
-    axios.defaults.headers.common['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZjYxNDQ4NGQyZmIzOTRmNmI4YjA1M2U3OWM5OWIzOSIsIm5iZiI6MTc1MTg2NTY2OS4wMjgsInN1YiI6IjY4NmI1OTQ1MTQ1NjA0OTg0NDlhNDhiZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4PBo8wRjNtYOveVugDSq6CSo2tKWXUISSsHMHuqJ5IM'
+    axios.defaults.headers.common['Authorization'] = 'TOKEN'
 
     useEffect(() => {
         axios
